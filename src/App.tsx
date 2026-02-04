@@ -17,7 +17,8 @@ const App = () => (
         <TooltipProvider>
           <Toaster />
           <Sonner />
-          <BrowserRouterbasename="/cervantesd.github.io">
+          <BrowserRouter 
+basename="/cervantesd.github.io">
             <Routes>
               <Route path="/" element={<Index />} />
               {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
